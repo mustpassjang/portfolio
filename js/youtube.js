@@ -1,7 +1,7 @@
 // Youtube IFrame API를 비동기로 로드합니다.
 var tag = document.createElement('script');
 
-tag.src = "https://www.youtube.com/iframe_api";
+tag.src = "https://www.youtube.com/watch?v=3fR9Uzt06WM";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
